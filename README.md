@@ -1,6 +1,6 @@
 ## Project Description
 
-A clinet is going to use our web
+A client is going to use our web
 app to determine how much each employee should be paid in each _pay period_, so
 it is critical that we get our numbers right.
 
