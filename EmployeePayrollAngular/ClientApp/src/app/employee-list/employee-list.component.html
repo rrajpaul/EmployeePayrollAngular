@@ -1,0 +1,19 @@
+<div class="container py-5">
+  <h3 class="text-center text-uppercase">Payroll Report</h3>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr class="text-center text-uppercase">
+        <th class="text-center" >Employee Id</th>
+        <th class="text-center">Pay Period</th>
+        <th class="text-center">Amount Paid</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of empList">
+        <td>{{ emp.employeeId }}</td>
+        <td>{{ emp.payPeriod }}</td>
+        <td>{{ emp.amountPaid }}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
