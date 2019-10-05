@@ -172,4 +172,6 @@ should produce the following payroll report:
    and the tblJobGroup was created for lookup and for creating the Payroll report
 2. Rest API the intended action by the user in the fron end
 3. Angular 5 based on the >net Cre 2.1 template for angular 5.x was used
-4. I did not use EF as my time was limited but for complex web application EF will enhance productivity but might affect performance
+4. I did not use EF as my time was limited but for complex web application EF will enhance productivity but might affect performance.
+5. In Visual Studio 2017/2019 you may need to update the web app port in angular files employee-list/employee-list.component
+   and services/upload.service.ts and services/employee.service.ts
