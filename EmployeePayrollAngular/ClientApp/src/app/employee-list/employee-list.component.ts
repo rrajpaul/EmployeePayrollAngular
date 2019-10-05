@@ -11,7 +11,7 @@ export class EmployeeListComponent implements OnInit {
   constructor(private httpService: HttpClient) { }
   empList: string[];
   ngOnInit() {
-    this.httpService.get('https://localhost:44349/api/employee').subscribe(
+    this.httpService.get('http://localhost:50634/api/employee').subscribe(
       data => {
         this.empList = data as string[];
       }

@@ -4,9 +4,9 @@ import { Observable } from "rxjs/Observable";
 
 @Injectable()
 export class EmployeeService {
-  private url = "https://localhost:44349/api/upload";
+  private url = "http://localhost:50634/api/upload";
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getEmployees(): Observable<any> {
     return this.http.get<any>(this.url);
