@@ -1,4 +1,4 @@
-## Project Description
+﻿## Project Description
 
 A client is going to use our web
 app to determine how much each employee should be paid in each _pay period_, so
@@ -49,16 +49,16 @@ The payroll report should be structured as follows:
 
 ## Deployment Instructions
 
-1. Extract bundle and open in VS 2017 community or Pro version on Windows 10 Pro 64 bit, should work on MacOS X and linux but will need Mono and its setup for the choosen environment
+1. Extract bundle and open in VS 2017 community or Pro version on Windows 10 Pro 64 bit, should work on MacOS X and Linux but will need Mono and its setup for the chosen environment
 2. Change the connection string information (server, database and username and password) in appsettings.json which is in the root of the project
-3. Run my sql scripts
-4. Build the solution and run in VS 2017 or commandline tools
+3. Run my SQL scripts
+4. Build the solution and run in VS 2017 or command line tools
 
-## Design descisions
+## Design decisions
 
 1. Tables were chosen based on what action was being taken for example Time Report upload the table is called tblEmployeeHours and the controller is called UploadHours
    and the tblJobGroup was created for lookup and for creating the Payroll report
-2. Rest API the intended action by the user in the fron end
+2. Rest API the intended action by the user in the front end
 3. Angular 5 based solution based on .Net Core 2.1 template for angular 5.x
 4. I did not use EF as my time was limited but for complex web application EF will enhance productivity but might affect performance.
 5. In Visual Studio 2017/2019 you may need to update the web app port in angular files employee-list/employee-list.component
